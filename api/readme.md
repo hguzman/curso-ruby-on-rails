@@ -8,3 +8,7 @@ json_data = @user.transactions.map do |transaction|
 end
 render json: { transactions: json_data }
 '''
+
+`sh
+sss
+`
