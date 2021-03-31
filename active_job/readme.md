@@ -7,6 +7,7 @@
 Dentro de la consola de rails, se puede administrar la información de los trabajos de la siguiente forma:
 
 ```shell
+Delayed::Job.all
 Delayed::Job.destroy_all
 Delayed::Job.destroy_all
 Delayed::Job.delete_all
