@@ -52,3 +52,7 @@ Ejecutará una consulta como:
 ```ruby
 SELECT "vehicles".* FROM "vehicles" WHERE "vehicles"."type" IN ('Car')
 ```
+
+## Crear tabla intermedia
+
+`rails g migration CreateJoinTableProductsSuppliers products suppliers`
