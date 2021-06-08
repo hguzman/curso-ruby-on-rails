@@ -1,5 +1,12 @@
 # Active Record
 
+## Metodos
+
+- **save:** Permite almacenar un objeto en una tabla
+- **destroy:** Permite borrar el objeto almacenado en la tabla
+- **all:** Es un metodo estatico que trae una lista de objentos
+- **find:** Busca por ID en la base de datos y construye un objeto
+
 ## Herencia
 
 A veces, es posible que desee compartir campos y comportamiento entre diferentes modelos. Digamos que tenemos modelos de coches, motos y bicicletas. Queremos compartir los campos de color y precio y algunos métodos para todos ellos, pero teniendo un comportamiento específico para cada uno, y controladores separados también. 
