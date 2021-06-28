@@ -32,3 +32,8 @@ Curso ruby on rails
 | PUT | personas/:persona_id/celulares/:id | update | Actualiza celular de una persona |   
 | PATCH | personas/:persona_id/celulares/:id | update | Actualiza celular de una persona |   
 | DELETE | personas/:persona_id/celulares/:id | destroy | Borra Celular de una persona |   
+
+
+## Inicial ngrok
+
+`ngrok http [port] -host-header="localhost:[port]"`
